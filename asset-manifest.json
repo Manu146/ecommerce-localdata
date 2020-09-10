@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ecommerce-localdata/static/css/main.c150de26.chunk.css",
+    "main.js": "/ecommerce-localdata/static/js/main.228306e8.chunk.js",
+    "main.js.map": "/ecommerce-localdata/static/js/main.228306e8.chunk.js.map",
+    "runtime-main.js": "/ecommerce-localdata/static/js/runtime-main.f798de9a.js",
+    "runtime-main.js.map": "/ecommerce-localdata/static/js/runtime-main.f798de9a.js.map",
+    "static/css/2.547735e1.chunk.css": "/ecommerce-localdata/static/css/2.547735e1.chunk.css",
+    "static/js/2.6d5a74a2.chunk.js": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js",
+    "static/js/2.6d5a74a2.chunk.js.map": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js.map",
+    "index.html": "/ecommerce-localdata/index.html",
+    "precache-manifest.ff1f1ffab1820cf890d4ec43cc8d4df8.js": "/ecommerce-localdata/precache-manifest.ff1f1ffab1820cf890d4ec43cc8d4df8.js",
+    "service-worker.js": "/ecommerce-localdata/service-worker.js",
+    "static/css/2.547735e1.chunk.css.map": "/ecommerce-localdata/static/css/2.547735e1.chunk.css.map",
+    "static/css/main.c150de26.chunk.css.map": "/ecommerce-localdata/static/css/main.c150de26.chunk.css.map",
+    "static/js/2.6d5a74a2.chunk.js.LICENSE.txt": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js.LICENSE.txt",
+    "static/media/fruits.jpg": "/ecommerce-localdata/static/media/fruits.d228218a.jpg",
+    "static/media/grains.jpg": "/ecommerce-localdata/static/media/grains.a92ddfbf.jpg",
+    "static/media/nuts.jpg": "/ecommerce-localdata/static/media/nuts.94a80699.jpg",
+    "static/media/pseudobanner52.jpg": "/ecommerce-localdata/static/media/pseudobanner52.31473a21.jpg",
+    "static/media/pseudobanner62.jpg": "/ecommerce-localdata/static/media/pseudobanner62.e53e2b4c.jpg",
+    "static/media/pseudobanner7.jpg": "/ecommerce-localdata/static/media/pseudobanner7.727bbb83.jpg",
+    "static/media/slick-theme.css": "/ecommerce-localdata/static/media/slick.f97e3bbf.svg",
+    "static/media/vegetables.jpg": "/ecommerce-localdata/static/media/vegetables.262d0e18.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f798de9a.js",
+    "static/css/2.547735e1.chunk.css",
+    "static/js/2.6d5a74a2.chunk.js",
+    "static/css/main.c150de26.chunk.css",
+    "static/js/main.228306e8.chunk.js"
+  ]
+}
