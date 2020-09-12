@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ecommerce-localdata/static/css/main.c150de26.chunk.css",
-    "main.js": "/ecommerce-localdata/static/js/main.228306e8.chunk.js",
-    "main.js.map": "/ecommerce-localdata/static/js/main.228306e8.chunk.js.map",
+    "main.js": "/ecommerce-localdata/static/js/main.dcb995ad.chunk.js",
+    "main.js.map": "/ecommerce-localdata/static/js/main.dcb995ad.chunk.js.map",
     "runtime-main.js": "/ecommerce-localdata/static/js/runtime-main.f798de9a.js",
     "runtime-main.js.map": "/ecommerce-localdata/static/js/runtime-main.f798de9a.js.map",
     "static/css/2.547735e1.chunk.css": "/ecommerce-localdata/static/css/2.547735e1.chunk.css",
-    "static/js/2.6d5a74a2.chunk.js": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js",
-    "static/js/2.6d5a74a2.chunk.js.map": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js.map",
+    "static/js/2.0917d907.chunk.js": "/ecommerce-localdata/static/js/2.0917d907.chunk.js",
+    "static/js/2.0917d907.chunk.js.map": "/ecommerce-localdata/static/js/2.0917d907.chunk.js.map",
     "index.html": "/ecommerce-localdata/index.html",
-    "precache-manifest.ff1f1ffab1820cf890d4ec43cc8d4df8.js": "/ecommerce-localdata/precache-manifest.ff1f1ffab1820cf890d4ec43cc8d4df8.js",
+    "precache-manifest.9776d1a071b58c2ed53da9987849a1af.js": "/ecommerce-localdata/precache-manifest.9776d1a071b58c2ed53da9987849a1af.js",
     "service-worker.js": "/ecommerce-localdata/service-worker.js",
     "static/css/2.547735e1.chunk.css.map": "/ecommerce-localdata/static/css/2.547735e1.chunk.css.map",
     "static/css/main.c150de26.chunk.css.map": "/ecommerce-localdata/static/css/main.c150de26.chunk.css.map",
-    "static/js/2.6d5a74a2.chunk.js.LICENSE.txt": "/ecommerce-localdata/static/js/2.6d5a74a2.chunk.js.LICENSE.txt",
+    "static/js/2.0917d907.chunk.js.LICENSE.txt": "/ecommerce-localdata/static/js/2.0917d907.chunk.js.LICENSE.txt",
     "static/media/fruits.jpg": "/ecommerce-localdata/static/media/fruits.d228218a.jpg",
     "static/media/grains.jpg": "/ecommerce-localdata/static/media/grains.a92ddfbf.jpg",
     "static/media/nuts.jpg": "/ecommerce-localdata/static/media/nuts.94a80699.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.f798de9a.js",
     "static/css/2.547735e1.chunk.css",
-    "static/js/2.6d5a74a2.chunk.js",
+    "static/js/2.0917d907.chunk.js",
     "static/css/main.c150de26.chunk.css",
-    "static/js/main.228306e8.chunk.js"
+    "static/js/main.dcb995ad.chunk.js"
   ]
 }
