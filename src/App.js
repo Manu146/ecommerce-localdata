@@ -20,20 +20,6 @@ function App() {
         <Router>
           <Navbar></Navbar>
           <Switch>
-            <Route exact path="/">
-              <HomePage></HomePage>
-              <div
-                className={`bg-gray-600 bg-opacity-50 h-full w-full fixed z-10 top-0 left-0 ${
-                  showmCart ? "block" : "hidden"
-                }`}
-              >
-                <CartMobile></CartMobile>
-              </div>
-              <Footer
-                showmCart={showmCart}
-                setshowmCart={setshowmCart}
-              ></Footer>
-            </Route>
             <Route exact path="/product/:id">
               <Navbar></Navbar>
               <ProductPage></ProductPage>
@@ -52,6 +38,20 @@ function App() {
             <Route exact path="/search">
               <Navbar></Navbar>
               <SearchResult></SearchResult>
+            </Route>
+            <Route path="/">
+              <HomePage></HomePage>
+              <div
+                className={`bg-gray-600 bg-opacity-50 h-full w-full fixed z-10 top-0 left-0 ${
+                  showmCart ? "block" : "hidden"
+                }`}
+              >
+                <CartMobile></CartMobile>
+              </div>
+              <Footer
+                showmCart={showmCart}
+                setshowmCart={setshowmCart}
+              ></Footer>
             </Route>
           </Switch>
         </Router>

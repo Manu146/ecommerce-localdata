@@ -22,7 +22,7 @@ export default function SearchResult() {
     if (prevQ.current !== q) {
       console.log("first effect executed");
       prevQ.current = q;
-      getData();
+      getData(0, true);
     }
   }, [q]);
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function SearchResult() {
         Search results for: {q}
       </h1>
       {data && (
-        <div className="w-full grid md:grid-cols-5 gap-4 grid-cols-2">
+        <div className="w-full grid lg:md:grid-cols-5 md:grid-cols-4 gap-4 grid-cols-2">
           {data.map((product) => {
             return (
               <ProductCard product={product} key={product.id}></ProductCard>

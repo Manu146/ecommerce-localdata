@@ -128,7 +128,7 @@ export default function ProductPage() {
                 Related products
               </h2>
               <Link
-                to={`/search?q=${data.category.name}`}
+                to={`/search?q=${data.category}`}
                 className="text-gray-600 flex items-center"
               >
                 View all

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const LOCAL_DATA_URL = "/productos.json";
+import jsonData from "../data/products.json";
 
 function itemsByPage(
   limit = 0,
@@ -39,29 +39,25 @@ export default function useLocalData({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
-  async function getData(page = 0) {
+  function getData(page = 0, clean = false) {
+    if (clean) setData(null);
     setLoading(true);
     let { searchFor, q, limit, singleItem } = params;
-    try {
-      const res = await fetch(LOCAL_DATA_URL);
-      let json = await res.json();
-      if (singleItem) {
-        let item = json.find((element) => element.id === parseInt(q));
-        setData(item);
-      } else {
-        let data = itemsByPage(limit, true, page, q, json, searchFor);
-        {
-          setData((prev) => {
-            if (prev) {
-              return [...prev, ...data];
-            } else return data;
-          });
-        }
+    let json = jsonData;
+    if (singleItem) {
+      let item = json.find((element) => element.id === parseInt(q));
+      setData(item);
+    } else {
+      let data = itemsByPage(limit, true, page, q, json, searchFor);
+      {
+        setData((prev) => {
+          if (prev) {
+            return [...prev, ...data];
+          } else return data;
+        });
       }
-      setLoading(false);
-    } catch (e) {
-      setError(e);
     }
+    setLoading(false);
   }
 
   useEffect(() => {
